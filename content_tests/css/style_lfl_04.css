@@ -1,0 +1,228 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*--------------------*/
+
+
+ul.head_nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+ul.head_nav li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+ul.head_nav li:last-child {
+	border-right: none;
+}
+
+ul.head_nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul.head_nav li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
+	background-color: #04AA6D;
+}
+
+/*--------------------*/
+
+
+body{
+		background-color: #e1e3e2;
+}
+
+.pseudo-list__style {
+	padding: 53px 0px 24px 291px;
+}
+.pseudo-list__hover, .pseudo-form__button {
+	padding: 0px 0px 24px 291px;
+}
+.title-text{
+	display: inline-block;
+	line-height: 40px;
+	letter-spacing: 2.8px;
+}
+
+.list li{
+	padding: 5px 0px 0px 35px;
+	line-height: 24px;
+	font-size: 20px;
+	color: #273d46;
+	background-image: url(/content_tests/img/lfl_04/icons/check-icon-green.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	}
+
+.pseudo-list__style li:nth-child(1){
+	text-decoration: line-through;
+}
+.pseudo-list__style li:nth-child(2){
+	font-weight: 700;
+}
+.pseudo-list__style li:nth-child(3){
+	font-style: italic;
+}
+.pseudo-list__style li:nth-child(4){
+	text-transform: uppercase;
+}
+/* -------------------------------------- */
+.pseudo-list__hover li:hover{
+	color: red;
+	background-image: url(/content_tests/img/lfl_04/icons/check-icon-red.png);
+}
+
+.content-bottom_info_link {
+	height: 44px;
+	line-height: 44px;
+	border-radius: 20px;
+	padding: 0px 30px;
+	display: inline-block;
+	background-color: rgba(128, 183, 179, 0.54);
+	-webkit-box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 5px 1px 0 rgba(0, 0, 0, 0.5);
+	font-family: Arial;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.content-bottom_info_link span {
+	padding-right: 30px;
+	background: url('../img/lfl_03/icons/shape-2.svg') right no-repeat;
+}
+.content-bottom_info_link:hover {
+	background-color: #3a5856;
+}
+.content-bottom_info_link:active {
+	position: relative;
+	top: 3px;
+	background-color: #ccfa35;
+
+	-webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 2px 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.link-area, .pseudo-form__input{
+	padding: 20px;
+	width: 800px;
+	margin: auto;
+}
+
+/* ----------------- */
+input[type=text], select {
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 0px;
+	box-sizing: border-box;
+}
+
+.input-form:focus{
+	box-shadow: #111 0px 0px 10px;
+	border-width: 2px;
+	border-color: #ccfa35;
+}
+
+

@@ -1,0 +1,208 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: TimesNewRomanPSMT;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*--------------------*/
+
+
+ul.head_nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+ul.head_nav li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+ul.head_nav li:last-child {
+	border-right: none;
+}
+
+ul.head_nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul.head_nav li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
+	background-color: rgb(192, 26, 26);
+}
+
+
+
+
+/*красивый чекбокс*/
+
+/*--------------------*/
+
+body{
+	background-image: url("/indewer_media/indewer_books/img/color-image_337990-245.png");
+	background-color: #e0ec707f;
+	background-repeat: round;
+background-position: 0 0;
+background-attachment: fixed;
+
+}
+
+.megatitle{
+	font-size: 20px;
+	font-weight: 700;
+	font-family: 'Times New Roman', Times, serif;
+	padding: 15px 45px;
+}
+.title-comment{
+	color: rgba(69, 68, 68, 0.811);
+	padding: 15px 45px;
+}
+
+.bookgroup{
+	padding: 30px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-transform: uppercase ;
+}
+.undergroup{
+	padding: 5px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: rgba(69, 68, 68, 0.811);
+}
+
+
+
+.book{
+	padding: 5px 45px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+span.unread{
+	color: rgba(16, 34, 113, 0.73);	
+	padding: 10px;
+	
+}
+span.cicle{
+	color: rgb(61, 61, 61);	
+	padding: 10px;
+	font-style: oblique;
+}
+.type-comment{
+	color: rgb(61, 61, 61);	
+	padding: 10px;
+	font-style: oblique;
+	margin-left: -90px;
+}
+
+
+span.read{
+	color: rgb(192, 26, 26);
+	padding: 25px;
+	margin-left: 10px;
+	background-image: url(/indewer_media/CSS_checkbox_full/img/green.png);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+span.series-book{
+	display: inline-block;
+	padding: 10px 96px 2px;
+}
+
+div.cicle{
+	display: inline-block;
+	padding: 10px ;
+}

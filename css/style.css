@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=DynaPuff&family=Montserrat:wght@500&display=swap');
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #1511f7;
+}
+
+/* ------------------------------- */
+
+body{
+
+  background: crimson;
+  opacity: 0.9;
+
+}
+span_fantasy{
+	font-family: "DynaPuff", cursive;
+  font-size: 7rem;
+  letter-spacing: 0.5rem;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-shadow: 7px 7px orange, 18px 18px black;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: white
+}
+.nick{
+text-shadow: 7px 7px #1511f7, 18px 18px black;
+}
+.part{
+text-shadow: 7px 7px #1e751c, 18px 18px black;
+}
+
+
+div.main-page-block{
+	font-size: 30px;
+	padding: 10px 65px;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+a{
+color: white;
+padding-left: 50px;
+}
+
+.main-page-string a{
+  display: inline-block;
+  padding: 50x;
+}

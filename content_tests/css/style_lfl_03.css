@@ -1,0 +1,269 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: TimesNewRomanPSMT;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*--------------------*/
+
+
+ul.head_nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+ul.head_nav li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+ul.head_nav li:last-child {
+	border-right: none;
+}
+
+ul.head_nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul.head_nav li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
+	background-color: #04AA6D;
+}
+
+/*--------------------*/
+
+body {
+	background-color: #e8e8e8;
+	background: url('../img/lfl_03/ellipse-1-copy.svg') 50% 130px no-repeat;
+}
+
+.content {
+	padding: 168px 0px 168px 0px;
+	max-width: 841px;
+	margin: 0px auto;
+	/*центрирует при ограничениях по ширине max-width:*/
+
+}
+
+.content-top {
+	text-align: center;
+	margin-bottom: 65px;
+
+}
+
+.content-top_category {
+	opacity: 0.6;
+	text-transform: uppercase;
+	font-family: Arial;
+	letter-spacing: 2.8px;
+	color: #273d4699;
+	margin: 0 0px 14px 0px;
+}
+
+.content-top_title {
+	font-size: 36px;
+	line-height: 50px;
+	color: #273d46;
+	max-width: 725px;
+	margin: 0px auto;
+}
+
+.content-image {
+	box-shadow: 0px 15px 65px rgba(15, 16, 16, 0.15);
+	background-color: #fff;
+	padding: 10px;
+	margin: 0 0px 85px 0px;
+}
+
+.content-image_item img {
+	max-width: 100%;
+	/*чтобы если другую картинку вставят - не была шире*/
+}
+
+.content-bottom {
+	padding: 0px 45px;
+}
+
+.content-bottom_text {
+	opacity: 0.8;
+	font-size: 24px;
+	line-height: 40px;
+	color: rgba(39, 61, 70, 0.8);
+}
+
+.content-bottom_text p {
+	margin: 0 0px 40px 0px;
+}
+
+.content-bottom_text p:last-child {
+	margin: 0px;
+	/*чтобы при добавлении новых параграфов текста - не было ненужных отступов.*/
+}
+
+
+.content-bottom_info-list {
+	margin: 0px 0px 59px 0px;
+}
+
+.content-bottom_info-list li {
+	font-family: Arial;
+	font-size: 20px;
+	margin: 0px 0px 18px 0px;
+	padding: 0px 0px 0px 35px;
+	background: url('../img/lfl_03/icons/check-icon.png') left no-repeat;
+
+}
+
+.content-bottom_info-list li:nth-child(1) {
+	text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.3);
+	color: #273d46;
+}
+
+.content-bottom_info-list li:nth-child(2) {
+	color: #80b7b3;
+	font-style: italic;
+}
+
+.content-bottom_info-list li:nth-child(3) {
+	color: #273d46;
+	font-weight: 700;
+}
+
+.content-bottom_info-list li:nth-child(4) {
+	color: rgba(39, 61, 70, 0.3);
+	text-decoration: line-through;
+}
+
+.content-bottom_info-list li:nth-child(4) span {
+	opacity: 0.3;
+}
+
+.content-bottom_info-list li:last-child {
+	margin: 0px;
+}
+
+.content-bottom_info_link {
+	height: 44px;
+	line-height: 44px;
+	border-radius: 20px;
+	padding: 0px 30px;
+	display: inline-block;
+	background-color: rgba(128, 183, 179, 0.54);
+	-webkit-box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 5px 1px 0 rgba(0, 0, 0, 0.5);
+
+	font-family: Arial;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.content-bottom_info_link span {
+	padding-right: 30px;
+	background: url('../img/lfl_03/icons/shape-2.svg') right no-repeat;
+}
+
+.content-bottom_info_link:hover {
+	background-color: #ecde117d;
+}
+
+.content-bottom_info_link:active {
+	position: relative;
+	top: 3px;
+	-webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 2px 1px 0 rgba(0, 0, 0, 0.5);
+}
